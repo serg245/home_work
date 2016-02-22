@@ -1,0 +1,203 @@
+.back-top{
+    height: 21px;
+    background-color: #128aa7;
+}
+.back-middle{
+    height: 91px;
+    background: linear-gradient(to bottom, #5ef0ff 0%,#11cde1 1%,#11cde1 2%,#1ccfe2 9%,#2cd3e5 16%,#2cd3e5 17%,#38d5e6 21%,#38d5e6 23%,#3dd6e7 23%,#54dbea 33%,#5dddeb 35%,#6ae0ec 41%,#bdf1f7 68%,#e1f9fb 83%,#feffff 100%); 
+}
+.back-middle2{
+    height: 535px;
+    background: linear-gradient(to bottom, #3dc2d0 0%,#35b9cb 3%,#24a6be 8%,#25a8bf 8%,#1597b4 13%,#1191b1 16%,#0c739f 100%);
+}
+.back-bottom{
+    height: 20px;
+    background-color: #0c739f;
+}
+.copy{
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    font-family: tahoma;
+}
+.main{
+    background-color: white;
+    height: 640px;
+    width: 1100px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    box-shadow: 
+        0 0 15px 0px ,
+        0 3px 0 0;
+    font-size: 15px;
+    font-family: tahoma; 
+}
+.asia{
+    width: 230px;
+    height: 112px;
+    margin-left: 15px;
+    float: left;
+}
+.top-right{
+    height: 112px;
+    width: 400px;
+    float: right;
+}
+.cont{
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    font-family: tahoma;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #6eacc0;
+}
+.menu-top{
+   clear: both;
+}
+.menu-top li{
+    float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.menu-top li a{
+    display: block;
+    text-align: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 15px;
+    font-family: tahoma;
+    font-size: 11px;
+    padding-top: 32px;
+    color: #71aec1;
+}
+.menu-top .india a{
+    background-image: url(../IMG/india.jpg);
+}
+.menu-top .nepal a{
+    background-image: url(../IMG/nepal.jpg);
+}
+.menu-top .tibet a{
+    background-image: url(../IMG/tibet.jpg);
+}
+.menu-top .butan a{
+    background-image: url(../IMG/butan.jpg);
+}
+.menu-top .shrilanka a{
+    background-image: url(../IMG/shrilanka.jpg);
+}
+.menu-top .maldiv a{
+    background-image: url(../IMG/maldiv.jpg);
+}
+.sea{
+    width: 1100px;
+    height: 180px;
+    clear: both;
+    border-bottom: 1px solid #128aa7;
+    border-top: 1px solid #128aa7;
+}
+ul.menu{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+ul:after{
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+ul.menu li{
+    float: left;
+    position: relative;
+    box-shadow: 0px 0px 10px #303030
+}
+ul.menu li a{
+    display: block;
+    background-color: #303030;
+    color: white;
+    line-height: 30px;
+    padding-left: 5px;;
+    text-decoration: none;
+    width: 150px;
+}
+ul.menu li a.onas{
+    text-align: center;
+}
+ul.menu li a.kont{
+   padding-right: 10px;
+   padding-left: 5px;    
+}
+ul.menu li a.glav{
+    text-align: center;
+}
+.menu li a.uslugi{
+    padding-left: 10px;
+}
+ul.menu li a:hover{
+    background-color: #303030;
+}
+ul.submenu{
+    position: absolute;
+    width: 155px;
+    display: none;
+    box-shadow: 0 0 15px;
+}
+ul.submenu li{
+    display: block;
+}
+ul.submenu li a{
+    display: block;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+ul.menu li:hover ul.submenu{
+    display: block;
+}
+.fon{
+    width: 1100px;
+    overflow: hidden;
+}
+.left-c{
+    width: 200px;
+    float: left;
+    background-color: #edeef0;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.center-c{
+    width: 648px;
+    height: 1px;
+    float: left;
+    background-color: white;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    border-right: 1px solid #c7cacf;
+    border-left: 1px solid #c7cacf;
+}
+.right-c{
+    width: 250px;
+    float:left;
+    background-color: #edeef0;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.info{
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.nov{
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
