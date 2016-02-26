@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu-color{
+    background-color: #074f8f;
+}
+.menu{
+    display: block;
+    margin-left: 540px;
+}
+ul:after{
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+.menu li{
+    float: left;
+    position: relative;
+    margin-left: 0px;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    text-align: center;
+    color: #58aae2;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+}
+li a.vender{
+    background-color: #4eabda;
+    color: white;
+}
+li a.ajuda{
+    border-right: 1px solid #56a2dc;
+    padding-right: 15px;
+}
+li a.minhas{
+    background-image: url(../IMG/flag.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    color: white;
+    background-position: left center;
+}
+li a.ola{
+    background-image: -webkit-linear-gradient(top, #4EACDA 0%, #2E7AC4 100%);
+    color: white;
+}
+span{
+    text-decoration: underline;
+}
+.main{
+    width: 1366px;
+    height: 637px;
+    background-image: url(../IMG/bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: Helvetica Neue;
+}
+.form{
+    background-color: rgba(15,15,15,0.7);
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.cadastre{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: 2px solid #c3ccb7;
+    font-family: Helvetica Neue;
+}
+.facebook{
+    width: 171px;
+    height: 23px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    background-image: url(../IMG/faceb.jpg);
+    border: 1px solid #334983;
+    border-radius: 5px;
+    color: rgba(255,255,255,0);
+}
+input{
+    margin-top: 15px;
+    border: none;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+}
+legend{
+   margin-left: auto;
+   margin-right: auto;
+   color: #999999;
+}
+fieldset{
+   border-top: 2px solid #666666;
+   margin: auto;
+   display: block;
+   margin-top: 15px;
+   width: 170px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.text{
+    height: 15px;
+    background-color: black;
+    margin-top: 20px;
+    box-shadow: 0px 2px 0px 0px #484948;
+}
+.text:focus{
+    background-color: #1b5288;
+    box-shadow: 0 0 20px 2px #1b5288;
+    border: 1px solid #437da8;
+    color: white;
+}
+.check{
+    color: #cccccc;
+    text-decoration: none;
+    font-family: Helvetica Neue;
+    font-size: 9px;
+}
+.send{
+    height: 10px;
+    margin-top: 15px;
+}
+.create{
+    margin: auto;
+    display: block;
+    font-size: 11px;
+    margin-top: 15px;
+    background-image: -webkit-linear-gradient(top, #4EACDA 0%, #2E7AC4 100%);
+}
+.policy{
+    color: #cccccc;
+    font-size: 9px;
+    width: 279px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 15px;
+    font-family: Helvetica Neue;
+}

@@ -1,0 +1,42 @@
+body{
+    background: white;
+}
+table{
+    margin: auto;
+    margin-top: 15px;
+    border-collapse: collapse;
+    border: 8px solid white;
+}
+td{
+    border: 5px solid ;
+    width: 40px;
+    height: 35px;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.r171{
+    width: 160px;
+}
+.r188{
+    width: 320px;
+}
+.r14{
+    height: 140px;
+}
+.r66{
+    height: 210px;
+}
+.r144{
+    height: 140px;
+    background-color: yellow;
+}
