@@ -1,37 +1,19 @@
-.back-top{
-    height: 21px;
-    background-color: #128aa7;
-}
-.back-middle{
-    height: 91px;
-    background: linear-gradient(to bottom, #5ef0ff 0%,#11cde1 1%,#11cde1 2%,#1ccfe2 9%,#2cd3e5 16%,#2cd3e5 17%,#38d5e6 21%,#38d5e6 23%,#3dd6e7 23%,#54dbea 33%,#5dddeb 35%,#6ae0ec 41%,#bdf1f7 68%,#e1f9fb 83%,#feffff 100%); 
-}
-.back-middle2{
-    height: 535px;
-    background: linear-gradient(to bottom, #3dc2d0 0%,#35b9cb 3%,#24a6be 8%,#25a8bf 8%,#1597b4 13%,#1191b1 16%,#0c739f 100%);
-}
-.back-bottom{
-    height: 20px;
-    background-color: #0c739f;
-}
-.copy{
-    text-align: center;
-    color: white;
-    font-size: 11px;
-    font-family: tahoma;
+body{
+    background-image: url(../IMG/back.jpg);
+    background-repeat: repeat-x; 
+    background-attachment: fixed;
 }
 .main{
-    background-color: white;
-    height: 640px;
     width: 1100px;
-    position: absolute;
-    top: 0;
-    left: 150px;
+    height: 640px;
+    background-color: white;
+    margin: auto;
     box-shadow: 
         0 0 15px 0px ,
         0 3px 0 0;
     font-size: 15px;
-    font-family: tahoma; 
+    font-family: tahoma;
+    background-attachment: fixed;
 }
 .asia{
     width: 230px;
@@ -52,6 +34,10 @@
     font-size: 12px;
     margin-bottom: 10px;
     color: #6eacc0;
+}
+.cont a{
+    text-decoration: none;
+     color: #6eacc0;
 }
 .menu-top{
    clear: both;
@@ -91,6 +77,7 @@
     background-image: url(../IMG/maldiv.jpg);
 }
 .sea{
+    display: block;
     width: 1100px;
     height: 180px;
     clear: both;
@@ -156,48 +143,44 @@ ul.submenu li a{
 ul.menu li:hover ul.submenu{
     display: block;
 }
-.fon{
-    width: 1100px;
-    overflow: hidden;
+.content{
+    overflow: auto;
+    width: 1098px;
+    height: 316px;
+    background: url(../IMG/fon.jpg) repeat-y;
+    float: left;
 }
 .left-c{
     width: 200px;
     float: left;
-    background-color: #edeef0;
+    /*background-color: #edeef0;*/
     text-align: center;
     line-height: 20px;
     padding-top: 8px;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
 }
 .center-c{
     width: 648px;
     height: 1px;
     float: left;
-    background-color: white;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
-    border-right: 1px solid #c7cacf;
-    border-left: 1px solid #c7cacf;
+    text-align: center;
 }
 .right-c{
-    width: 250px;
+    width: 233px;
     float:left;
-    background-color: #edeef0;
     text-align: center;
     line-height: 20px;
     padding-top: 8px;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
 }
-.info{
-    font-weight: bold;
-    font-size: 17px;
-    padding-bottom: 5px;
+.footer{
+    padding-top: 6px;
 }
-.nov{
-    font-weight: bold;
-    font-size: 17px;
-    padding-bottom: 5px;
+.copy{
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    font-family: tahoma;
 }
-
+.copy a{
+    text-decoration: none;
+    color: white;
+}
