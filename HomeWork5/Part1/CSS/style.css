@@ -37,7 +37,7 @@ body{
 }
 .menu{
     display: block;
-    margin-left: 390px;
+    margin-left: 460px;
 }
 ul:after{
     display: block;
@@ -48,27 +48,32 @@ ul:after{
 .menu li{
     float: left;
     position: relative;
-    margin-left: 0px;
+    margin-left: px;
+    font-family: Helvetica Neue;
+    font-size: 14px;
 }
 .menu li a{
-    display: block;
     text-decoration: none;
     line-height: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: center;
     color: #58aae2;
     font-family: Helvetica Neue;
     font-size: 14px;
 }
-li a.vender{
+li.vender{
     background-color: #4eabda;
+    text-align: center;
+}
+li.vender a{
     color: white;
 }
 li a.ajuda{
     border-right: 1px solid #56a2dc;
     padding-right: 15px;
+    display: block;
 }
 li a.minhas{
     background-image: url(../IMG/flag.png);
@@ -77,9 +82,15 @@ li a.minhas{
     color: white;
     background-position: left center;
 }
-li a.ola{
+li.ola{
     background-image: -webkit-linear-gradient(top, #4EACDA 0%, #2E7AC4 100%);
     color: white;
+    padding-left: 10px;
+}
+li.ola a{
+    color: white;
+    margin-left: -5px;
+    text-decoration: underline;
 }
 .cadastre{
     color: white;
@@ -106,7 +117,7 @@ input{
     margin-top: 25px;
     border: none;
     font-family: Helvetica Neue;
-    font-size: 18px;
+    font-size: 12px;
 }
 legend{
    margin-left: auto;
@@ -124,9 +135,11 @@ fieldset{
 }
 .text{
     height: 25px;
+    width: inherit;
     background-color: black;
     margin-top: 25px;
     box-shadow: 0px 2px 0px 0px #484948;
+    padding-left: 15px;
 }
 .text:focus{
     background-color: #1b5288;
@@ -138,7 +151,7 @@ fieldset{
     color: #cccccc;
     text-decoration: none;
     font-family: Helvetica Neue;
-    font-size: 12px;
+    font-size: 11px;
 }
 .send{
     height: 12px;
@@ -147,9 +160,16 @@ fieldset{
 .create{
     margin: auto;
     display: block;
-    font-size: 18px;
+    font-size: 12px;
     margin-top: 25px;
     background-image: -webkit-linear-gradient(top, #4EACDA 0%, #2E7AC4 100%);
+    color: white;
+    line-height: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    font-family: Helvetica Neue;
 }
 .policy{
     color: #cccccc;
