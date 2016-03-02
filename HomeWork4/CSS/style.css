@@ -37,10 +37,10 @@ body{
 }
 .cont a{
     text-decoration: none;
-     color: #6eacc0;
+    color: #6eacc0;
 }
 .menu-top{
-   clear: both;
+    clear: both;
 }
 .menu-top li{
     float: left;
@@ -144,16 +144,13 @@ ul.menu li:hover ul.submenu{
     display: block;
 }
 .content{
-    overflow: auto;
     width: 1098px;
-    height: 316px;
     background: url(../IMG/fon.jpg) repeat-y;
     float: left;
 }
 .left-c{
     width: 200px;
     float: left;
-    /*background-color: #edeef0;*/
     text-align: center;
     line-height: 20px;
     padding-top: 8px;
@@ -170,6 +167,14 @@ ul.menu li:hover ul.submenu{
     text-align: center;
     line-height: 20px;
     padding-top: 8px;
+}
+.nov{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.info{
+    font-weight: bold;
+    padding-bottom: 5px;
 }
 .footer{
     padding-top: 6px;
