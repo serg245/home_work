@@ -87,15 +87,11 @@ header{
     font-family: "Lucida-S-U-R";
     font-size: 12px;
     color: #bfbfbf;
-    
-    
 }
 .siluet{
     padding-left: 5px;
     position: relative;
     top: 4px;
-    
-    
 }
 .text{
     width: 110px;
@@ -109,7 +105,6 @@ header{
 .login input{
     font-family: "Lucida-S-U-R";
     font-size: 11px;
-    
 }
 .menu{
     width: 75px;
@@ -181,7 +176,7 @@ header{
     margin-left: 2px;
     border: none;
 }
-.main-menu li a.okomp{
+.main-menu li a:hover{
     background: linear-gradient(to bottom, #1f6787 0%,#1c5e7e 17%,#124366 57%,#0c3357 100%);
 }
 .korz{
@@ -554,7 +549,7 @@ margin-bottom: 10px;
     text-decoration: none;
     color: #465961;
 }
-.asmenu a.a-selected{
+.asmenu a:hover{
     background-image: url(../IMG/menu2.png);
     background-repeat: no-repeat;
     font-family: Arial;
@@ -563,7 +558,7 @@ margin-bottom: 10px;
     font-weight: bold;
     color: #0c3256;
 }
-.asmenu span{
+.asmenu span:hover{
     border-bottom: 2px solid;
 }
 .l3{
@@ -622,20 +617,69 @@ margin-bottom: 10px;
     margin-top: 2px;
     margin-bottom: 2px;
 }
-.asmenu1 li{
-    margin-bottom: 9px;
+.asmenu1 input{
+    opacity: 0;
+    width: 10px;
 }
-.asmenu1 li a{
-    margin-left: 24px;
-    
-    padding-left: 29px;
-    background-image: url(../IMG/menu3.png);
+.asmenu1{
+    background: url(../IMG/menu3.png); 
     background-repeat: no-repeat;
-    background-position: 4px 2px;
+    background-position: 1px;
     font-family: "Lucida-S-U-R";
     font-size: 13px;
-    text-decoration: none;
     color: #465961;
+    margin-bottom: 3px;
+    margin-left: 27px;
+}
+.asmenu1 input:checked{
+    opacity: 1;
+}
+#brend1{
+    position: relative;
+    top: 1px;
+}
+#brend2{
+   position: relative;
+    top: 3px;
+}
+#brend3{
+    position: relative;
+    top: 6px;
+}
+.br1{
+    position: relative;
+    left: 6px;
+    bottom: 3px;
+}
+.asmenu2{
+    background-position: 1px 4px;
+}
+.br2{
+    margin-left: 5px;
+}
+.asmenu3{
+    background-position: 1px 7px;
+    margin-bottom: 13px;
+}
+.br3{
+    margin-left: 6px;
+    position: relative;
+    top: 3px;
+}
+.asmenu4{
+   background-position: 1px -1px; 
+}
+#brend4{
+    position: relative;
+    top: -2px;
+}
+#brend5{
+    position: relative;
+    top: 3px;
+}
+#brend6{
+    position: relative;
+    top: 6px;
 }
 .r3{
     width: 155px;
@@ -651,7 +695,7 @@ margin-bottom: 10px;
     margin-bottom: 6px;
 }
 .butt{
-    margin-top: 11px;
+    margin-top: 10px;
     margin-left: 30px;
     border: none;
     border-radius: 15px;
@@ -687,10 +731,11 @@ margin-bottom: 10px;
     padding-top: 1px;
     padding-left: 15px;
 }
-.m1 figcaption span{
+.m1 figcaption a{
     color: #37748f;
     font-size: 15px;
     margin-left: 21px;
+    text-decoration: none;
 }
 .m1 figure img{
     margin-top: -2px;
@@ -715,10 +760,11 @@ margin-bottom: 10px;
     padding-top: 1px;
     padding-left: 29px;
 }
-.m2 figcaption span{
+.m2 figcaption a{
     color: #37748f;
     font-size: 15px;
     margin-left: 22px;
+    text-decoration: none;
 }
 .m2 figure img{
     margin-top: -2px;
@@ -742,10 +788,11 @@ margin-bottom: 10px;
     padding-top: 1px;
     padding-left: 20px;
 }
-.m3 figcaption span{
+.m3 figcaption a{
     color: #37748f;
     font-size: 15px;
     margin-left: 29px;
+    text-decoration: none;
 }
 .m3 figure img{
     margin-top: -2px;
@@ -787,13 +834,47 @@ margin-bottom: 10px;
     margin-left: -1px;
 }
 .reklama{
-   margin-left: 117px;
-    margin-top: 41px;
-    margin-bottom: 20px;
+    clear: both;
+    margin-left: 117px;
+    padding-top: 39px;
+}
+.bridges{
+   position: relative;
+    left: 8px;
+    bottom: 8px;
+}
+.contin{
+  position: relative;
+    left: 17px;
+}
+.do{
+   position: relative;
+    left: 28px;
+    bottom: 2px;
+}
+.avon{
+  position: relative;
+    left: 35px;
+    bottom: 8px;
+}
+.tir{
+   position: relative;
+    left: 45px;
+}
+.pirel{
+   position: relative;
+    left: 53px;
+    bottom: 7px;
+}
+.dl{
+    position: relative;
+    left: 65px;
+    bottom: 7px;
 }
 footer{
     height: 100px;
     background-color: #213a4d;
+    margin-top: 22px;
 }
 .foot{
     padding-top: 10px;
@@ -812,8 +893,10 @@ footer{
     border-left: 1px solid;
     padding-left: 11px;
 }
-.foot a.komp{
+.foot a:hover{
     color: #52abcb;
+}
+.foot a.komp{
     border: none;
  }
 .foot a.dostavka{
@@ -833,6 +916,6 @@ footer{
     font-family: Arial;
     color: #7f4740;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 31px;
     padding-right: 3px;
 }
